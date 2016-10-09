@@ -23,7 +23,7 @@ reload the app with the latest version.
 
 ## How?
 
-Inject the service where you see fit. Here in the ``ApplicationController`:
+Inject the service where you see fit. Here in the `ApplicationController`:
 
 ```js
 //app/controllers/application.js
@@ -67,17 +67,19 @@ ENV.APP.versionEndpoint = 'myVersionFile.json';
 
 ## Installation
 
-* `git clone` this repository
+* `git clone <repository-url>` this repository
+* `cd ember-cli-self-update`
 * `npm install`
 * `bower install`
 
 ## Running
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+* `ember serve`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Running Tests
 
+* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
@@ -85,4 +87,4 @@ ENV.APP.versionEndpoint = 'myVersionFile.json';
 
 * `ember build`
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
